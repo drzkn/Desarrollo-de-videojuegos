@@ -21,6 +21,13 @@ namespace SimplePang
         public virtual void LoadTexture(string pTextureName, System.IO.Stream pStream)
         {
         }
+
+        public virtual void LoadTexture(string pTextureName)
+        {
+            System.IO.FileStream stream = new System.IO.FileStream(pTextureName, System.IO.FileMode.Open);
+            LoadTexture(pTextureName, stream);
+            stream.Dispose();
+        }
         /// <summary>
         /// 
         /// </summary>

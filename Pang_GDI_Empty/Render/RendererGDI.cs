@@ -13,7 +13,7 @@ namespace SimplePang
     public class RendererGDI : RendererBase
     {
         public Dictionary<string, System.Drawing.Image> mTextures = new Dictionary<string, Image>();
-        private System.Drawing.Graphics mGraphics;
+        public System.Drawing.Graphics mGraphics;
         private Font mTextFont;
 
 

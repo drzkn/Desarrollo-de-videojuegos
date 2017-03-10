@@ -22,7 +22,7 @@ namespace SimplePang
             f.Show();
             while (f.Created)
             {
-                System.Windows.Forms.Application.DoEvents();
+                System.Windows.Forms.Application.DoEvents(); // Oculta las ventanas de windows
 
                 f.Dostep();
             }
