@@ -57,3 +57,28 @@ C:\Users\diego\Desktop\Pang_GDI_Empty\bin\Debug\Resources\pang_b.gif
 C:\Users\diego\Desktop\Pang_GDI_Empty\bin\Debug\Resources\Sprites.png
 C:\Users\diego\Desktop\Pang_GDI_Empty\bin\Debug\Pang_GDI_Empty.exe
 C:\Users\diego\Desktop\Pang_GDI_Empty\bin\Debug\Pang_GDI_Empty.pdb
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Pang_GDI_Empty.exe.config
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\obj\Debug\Pang_GDI_Empty.exe
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\obj\Debug\Pang_GDI_Empty.pdb
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Levels\Level1.png
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Levels\Level1.xml
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Levels\Level2.png
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Levels\Level2.xml
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Levels\Level3.png
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Levels\Level3.xml
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Levels\Level4.png
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Levels\Level4.xml
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Resources\ArrowBase.png
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Resources\Arrow_1.png
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Resources\Balloons.png
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Resources\Bricks.png
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Resources\LadderTile.png
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Resources\Pang.png
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Resources\pang_b.gif
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Resources\Sprites.png
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Pang_GDI_Empty.exe
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\bin\Debug\Pang_GDI_Empty.pdb
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\obj\Debug\Pang_GDI_Empty.csprojResolveAssemblyReference.cache
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\obj\Debug\SimplePang.FrmMain.resources
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\obj\Debug\SimplePang.Properties.Resources.resources
+C:\Users\diego\Desktop\uni\Primavera\Diseño de videojuegos\Pang_GDI_Empty\obj\Debug\Pang_GDI_Empty.csproj.GenerateResource.Cache

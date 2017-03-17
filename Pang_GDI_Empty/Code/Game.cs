@@ -24,7 +24,7 @@ namespace SimplePang
         /// <summary>
         /// Gravity velocity, in pixels per second
         /// </summary>
-        public static Vector2 mGravityVel_PixelsPerSecond = new Vector2(0, 800);
+        public static Vector2 mGravityVel = new Vector2(0,500);
         public static float mDt;
         private static int mFPSCounter;
         private static float mTimeCounter;
@@ -44,6 +44,15 @@ namespace SimplePang
         /// 
         /// </summary>
         /// <returns></returns>
+
+        public static void ChangeLevel(int pLevelIdx)
+        {
+
+            mCurrentLevelIdx = pLevelIdx;
+
+            mPlayer.mPos = mLevels[mCurrentLevelIdx].mPlayerInitialPosition;
+
+        }
         private static float CalcDt()
         {
             // A hi-resolution timer would be used in normal circumstances
@@ -113,6 +122,10 @@ namespace SimplePang
             mPlayer.mTextureName = AppDomain.CurrentDomain.BaseDirectory + @"\Resources\Pang.png";
             mRenderer.LoadTexture(mPlayer.mTextureName);
 
+            //Load texture for balloons
+            Ball.mTextureName = AppDomain.CurrentDomain.BaseDirectory + @"\Resources\Balloons.png";
+            mRenderer.LoadTexture(Ball.mTextureName);
+
             // Cargar todos los niveles que estén presentes en la carpeta niveles
             dinfo = new System.IO.DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory + @"\Levels");
             System.IO.FileInfo[] xmlFiles = dinfo.GetFiles("*.xml");
@@ -123,7 +136,17 @@ namespace SimplePang
                 level.mBackgroundTextureName = System.IO.Path.ChangeExtension(file.FullName, ".png");
                 mRenderer.LoadTexture(level.mBackgroundTextureName);
                 mLevels.Add(level);
+
+                //Cargar fichero xml del nivel
+                System.Xml.XmlDocument doc = new System.Xml.XmlDocument();
+                doc.Load(file.FullName);
+                System.Xml.XmlNode levelNode = doc.SelectSingleNode("Level");
+                level.ConfigureFromXML(levelNode);
+            
             }
+
+            //Initialize game in level 0
+            ChangeLevel(0);
 
         }
     }
